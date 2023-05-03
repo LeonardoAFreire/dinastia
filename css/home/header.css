@@ -1,10 +1,11 @@
 .bg-header {
-  background: linear-gradient(65deg, #d5ac61, #fcda9b, #ffeac4);
+  background: linear-gradient(64deg, #d5ac61, #fcda9b, #ffeac4);
 }
 
 .logo {
   font-size: 4rem;
   color: var(--cor-1);
+  font-family: 'Lato';
 }
 
 .header {
@@ -46,7 +47,7 @@
 .nav .btn-escritorio {
   color: var(--cor-0);
   font-weight: bold;
-  background: #130841;
+  background: var(--cor-1);
   padding: 12px 24px;
   border-radius: 4px;
   transition: 0.3s;
@@ -85,7 +86,7 @@
   }
 
   #nav.active #menu {
-    height: calc(100vh - 78px);
+    height: calc(100vh - 77px);
     visibility: visible;
     overflow-y: auto;
   }
