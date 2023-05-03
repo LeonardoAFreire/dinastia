@@ -6,25 +6,29 @@
 }
 
 .main {
+  text-align: center;
   padding: 120px 20px 120px 20px;
 }
 
 .main h1 {
   color: var(--cor-0);
+  margin-bottom: 40px;
 }
 
 .texto-main {
-  margin-top: 20px;
   color: #fff;
-  max-width: 45ch;
+  max-width: 75ch;
+  margin: 0 auto;
   color: var(--cor-0);
   font-weight: bold;
+  text-align: center;
 }
 
 .chamadas {
   margin-top: 40px;
   display: flex;
   gap: 12px;
+  justify-content: center;
 }
 
 @media (max-width: 960px) {
@@ -34,6 +38,10 @@
   .main {
     padding: 40px 20px 40px 20px;
     text-align: center;
+  }
+
+  .main h1 {
+    margin-bottom: 20px;
   }
 
   .chamadas {

@@ -57,7 +57,7 @@
     width: 100%;
     top: 77px;
     left: 0px;
-    background: var(--cor-p1);
+    background: linear-gradient(to right, #d5ac61, #fcda9b, #ffeac4);
     height: 0px;
     z-index: 1000;
     transition: 0.5s;
@@ -74,7 +74,7 @@
 
   #menu a {
     padding: 1rem 1rem;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   }
   #btn-mobile {
     display: flex;
