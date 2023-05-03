@@ -17,6 +17,7 @@
 
 .nav ul {
   display: flex;
+  align-items: center;
   gap: 4px;
 }
 
@@ -32,7 +33,7 @@
   color: var(--cor-0);
   font-weight: bold;
   background: #130841;
-  padding: 8px 16px;
+  padding: 12px 24px;
   border-radius: 4px;
   transition: 0.3s;
 }
@@ -54,7 +55,7 @@
     flex-direction: column;
     position: absolute;
     width: 100%;
-    top: 78px;
+    top: 77px;
     left: 0px;
     background: var(--cor-p1);
     height: 0px;
