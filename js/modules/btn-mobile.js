@@ -2,9 +2,7 @@ export default function initBtnMobile() {
   const btnMobile = document.getElementById('btn-mobile');
 
   if (btnMobile) {
-    console.log('funcionando');
     function handleClick(event) {
-      console.log('clicou');
       // TouchStart tem o evento de click no final que se nao for tirado vai bugar o codigo
       if (event.type === 'touchstart') {
         event.preventDefault();
