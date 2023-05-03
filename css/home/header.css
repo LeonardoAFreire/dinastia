@@ -1,5 +1,5 @@
 .bg-header {
-  background: var(--cor-p1);
+  background: linear-gradient(65deg, #d5ac61, #fcda9b, #ffeac4);
 }
 
 .logo {

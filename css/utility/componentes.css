@@ -1,7 +1,7 @@
 .btn {
   display: inline-block;
   padding: 16px 32px;
-  color: var(--cor-2);
+  color: var(--cor-1);
   border: 4px solid var(--cor-0);
   background-color: transparent;
   font-family: 'Lato';
@@ -31,7 +31,7 @@
 }
 
 .btn.btn-contato {
-  border-color: var(--cor-p1);
+  border-color: #fcda9b;
 }
 
 .btn.btn-contato:hover {
@@ -39,7 +39,7 @@
 }
 
 .btn.btn-contato::after {
-  background: var(--cor-p1);
+  background: linear-gradient(65deg, #d5ac61, #fcda9b, #ffeac4);
 }
 
 .btn.btn-contato {
