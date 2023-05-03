@@ -37,6 +37,15 @@
   max-width: 75ch;
 }
 
+.btn-apresentacao {
+  place-self: center;
+}
+
+.btn-apresentacao:hover {
+  color: var(--cor-1);
+  border-color: var(--cor-1) !important;
+}
+
 @media (max-width: 960px) {
   .apresentacao {
     padding: 40px 20px 40px 20px;
