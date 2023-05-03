@@ -1,0 +1,28 @@
+.bg-main {
+  background-image: url('/img/bg-main.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main {
+  padding: 120px 20px 120px 20px;
+}
+
+.main h1 {
+  color: var(--cor-0);
+}
+
+.texto-main {
+  margin-top: 20px;
+  color: #fff;
+  max-width: 45ch;
+  color: var(--cor-0);
+  font-weight: bold;
+}
+
+.chamadas {
+  margin-top: 40px;
+  display: flex;
+  gap: 12px;
+}
