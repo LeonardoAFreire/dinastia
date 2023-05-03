@@ -1,6 +1,7 @@
 .bg-apresentacao {
   background: url(../../img/endless-constellation.svg);
   background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 .apresentacao {
@@ -60,5 +61,8 @@
   .conteudo-apresentacao p {
     text-align: left;
     margin-left: 0;
+  }
+
+  .bg-apresentacao {
   }
 }
