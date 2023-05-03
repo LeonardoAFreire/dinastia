@@ -1,5 +1,6 @@
 /* Global */
 @import './global/globa.css';
+@import './global/header.css';
 
 /* Utility */
 @import './utility/cores.css';
@@ -7,5 +8,5 @@
 @import './utility/componentes.css';
 
 /* Home */
-@import './home/header.css';
 @import './home/main.css';
+@import './home/apresentacao.css';

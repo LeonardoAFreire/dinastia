@@ -1,0 +1,55 @@
+.bg-apresentacao {
+  background: url(../../img/endless-constellation.svg);
+  background-repeat: repeat;
+}
+
+.apresentacao {
+  padding: 120px 20px 120px 20px;
+  display: grid;
+  gap: 40px;
+}
+.conteudo-apresentacao-2 {
+  text-align: right;
+}
+
+.conteudo-apresentacao-2 p {
+  max-width: 75ch;
+  margin-left: auto;
+}
+
+.conteudo-apresentacao h2,
+.conteudo-apresentacao-2 h2 {
+  display: inline-block;
+}
+
+.conteudo-apresentacao h2::after,
+.conteudo-apresentacao-2 h2::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: var(--cor-1);
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.conteudo-apresentacao p {
+  max-width: 75ch;
+}
+
+@media (max-width: 960px) {
+  .apresentacao {
+    padding: 40px 20px 40px 20px;
+  }
+
+  .conteudo-apresentacao-2,
+  .conteudo-apresentacao {
+    text-align: center;
+  }
+
+  .conteudo-apresentacao-2 p,
+  .conteudo-apresentacao p {
+    text-align: left;
+    margin-left: 0;
+  }
+}
