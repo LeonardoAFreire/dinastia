@@ -33,5 +33,13 @@
   }
   .main {
     padding: 40px 20px 40px 20px;
+    text-align: center;
+  }
+
+  .chamadas {
+    margin-top: 20px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
   }
 }
