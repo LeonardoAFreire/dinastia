@@ -63,6 +63,7 @@
     transition: 0.5s;
     overflow-y: hidden;
     visibility: hidden;
+    align-items: initial;
   }
 
   #nav.active #menu {
