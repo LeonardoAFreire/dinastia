@@ -1,5 +1,5 @@
 .bg-apresentacao {
-  background: url(../../img/endless-constellation.svg);
+  background: url(../../img/redes.svg);
   background-repeat: repeat;
   background-attachment: fixed;
 }
@@ -9,6 +9,28 @@
   display: grid;
   gap: 40px;
 }
+
+.conteudo-apresentacao,
+.conteudo-apresentacao-2 {
+  display: grid;
+  align-items: center;
+}
+
+.conteudo-apresentacao {
+  grid-template-columns: 2fr 1fr;
+}
+
+.conteudo-apresentacao-2 {
+  grid-template-columns: 1fr 2fr;
+}
+
+.diamond {
+  max-width: 400px;
+  height: auto;
+  opacity: 0.9;
+  fill: #003300;
+}
+
 .conteudo-apresentacao-2 {
   text-align: right;
 }
@@ -50,6 +72,15 @@
 @media (max-width: 960px) {
   .apresentacao {
     padding: 40px 20px 40px 20px;
+  }
+
+  .conteudo-apresentacao,
+  .conteudo-apresentacao-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .diamond {
+    display: none;
   }
 
   .conteudo-apresentacao-2,

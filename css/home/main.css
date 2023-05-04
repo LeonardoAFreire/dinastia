@@ -33,6 +33,7 @@
 
 @media (max-width: 960px) {
   .bg-main {
+    background-image: url('../../img/bg-mainMobile.jpg');
     background-attachment: initial;
   }
   .main {
