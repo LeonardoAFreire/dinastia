@@ -98,10 +98,110 @@
 
       <a href="" class="btn btn-contato btn-apresentacao font-1-m">Comece agora</a>
     </div>
+  </section>
+  <section class="bg-beneficios">
+    <div class="beneficios container">
+      <h2 class="font-1-xl cor-0">
+        O que a Dinastia oferece ?
+      </h2>
+      <p class="font-1-l cor-0 texto-beneficios">
+        A Dinastia oferece diversos planos com serviços e benefícios nas áreas da saúde, segurança financeira e
+        capacitação profissional.
+      </p>
 
+      <div class="beneficios-cards">
+        <ul class="cards">
+          <li class="card">
+            <div class="card-conteudo">
+              <img src="./img/seguroVida.svg" alt="Icone que representa o seguro de vida">
+              <h3 class="font-1-l cor-0">Seguro de Vida</h3>
+              <p class="font-1-m cor-0">Seguro de Acidentes Pessoais e Seguro Funeral pela Sul América e Seguro por
+                Morte
+                Natural através da
+                Tokio Marine Seguradora.
+              </p>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card-conteudo">
+              <img src="./img/cashback.svg" alt="Icone que representa o cashback">
+              <h3 class="font-1-l cor-0">Cashback</h3>
+              <p class="font-1-m cor-0">+750 lojas que oferecem dinheiro de volta em suas compras online. Tudo isso
+                sendo apenas sócio da Dinastia.
+              </p>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card-conteudo">
+              <img src="./img/desconto.svg" alt="Icone que representa a rede de desconto">
+              <h3 class="font-1-l cor-0">Rede de Desconto</h3>
+              <p class="font-1-m cor-0">Oferece descontos e vantagens especiais em diversos estabelecimentos, lojas
+                físicas e online.
+              </p>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card-conteudo">
+              <img src="./img/internacao.svg" alt="Icone que representa a diaria por internação">
+              <h3 class="font-1-l cor-0">DIH</h3>
+              <p class="font-1-m cor-0">Diária por internação hospitalar por 20 dias (R$ 250,00 a diária).
+              </p>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card-conteudo">
+              <img src="./img/descontofarmacia.svg" alt="Icone que representa o desconto em farmácias">
+              <h3 class="font-1-l cor-0">Desconto em Farmácias</h3>
+              <p class="font-1-m cor-0">Descontos de até 60% em medicamentos nas farmácias conveniadas.
+              </p>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card-conteudo">
+              <img src="./img/assistencia.svg" alt="Icone que representa assistencia pessoal">
+              <h3 class="font-1-l cor-0">Assistência Pessoal
+              </h3>
+              <p class="font-1-m cor-0">Disponibiliza serviços na residência do Associado, tais como, encanador,
+                chaveiro, eletricista, etc.
+              </p>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card-conteudo">
+              <img src="./img/descontomedico.svg" alt="Icone que representa desconto em consultas medicas e exames">
+              <h3 class="font-1-l cor-0">Descontos em Consultas Médicas e Exames
+              </h3>
+              <p class="font-1-m cor-0">Realize consultas presenciais ou por telemedicina e exames laboratoriais, por
+                preços reduzidos.
+              </p>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card-conteudo">
+              <img src="./img/psicologica.svg" alt="Icone que representa o beneficio em psicologia">
+              <h3 class="font-1-l cor-0">Orientação Psicológica e Nutricional</h3>
+              <p class="font-1-m cor-0">Tenha disponível nutricionistas e psicólogos através de atendimento telefônico.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
   </section>
 
   <script type="module" src="./js/script.js"></script>
+  <script type="text/javascript" src="./js/modules/vanilla-tilt.js"></script>
+  <script>
+    VanillaTilt.init(document.querySelectorAll(".card"), {
+      max: 25,
+      speed: 400,
+      glare: true,
+      "max-glare": 1,
+    });
+
+    //It also supports NodeList
+    VanillaTilt.init(document.querySelectorAll("card-conteudo"));
+  </script>
 </body>
 
 </html>

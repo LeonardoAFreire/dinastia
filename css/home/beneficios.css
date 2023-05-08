@@ -1,0 +1,89 @@
+.bg-beneficios {
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.beneficios {
+  padding: 120px 20px 120px 20px;
+}
+
+.texto-beneficios {
+  margin-top: 20px;
+  max-width: 75ch;
+  margin-bottom: 40px;
+}
+
+.cards {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.cards li {
+  width: 280px;
+  height: 400px;
+  margin: 30px;
+  box-shadow: 20px 20px 50px rgb(0, 0, 0, 0.5);
+  border-radius: 15px;
+  overflow: hidden;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.card-conteudo {
+  padding: 20px;
+  text-align: center;
+  display: grid;
+  gap: 12px;
+}
+
+.card-conteudo img {
+  top: 10px;
+  right: 10px;
+  height: 100px;
+  width: 100px;
+  place-self: center;
+}
+
+.card-conteudo h3 {
+  font-weight: bold;
+}
+
+@media (max-width: 960px) {
+  .beneficios {
+    padding: 40px 20px 40px 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .beneficios h2 {
+    text-align: center;
+  }
+
+  .texto-beneficios {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .cards li {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+  }
+}
