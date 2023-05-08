@@ -192,15 +192,19 @@
   <script type="module" src="./js/script.js"></script>
   <script type="text/javascript" src="./js/modules/vanilla-tilt.js"></script>
   <script>
-    VanillaTilt.init(document.querySelectorAll(".card"), {
-      max: 25,
-      speed: 400,
-      glare: true,
-      "max-glare": 1,
-    });
+    if (window.innerWidth >= 960) {
+      VanillaTilt.init(document.querySelectorAll(".card"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare": 1,
+      });
 
-    //It also supports NodeList
-    VanillaTilt.init(document.querySelectorAll("card-conteudo"));
+      //It also supports NodeList
+      VanillaTilt.init(document.querySelectorAll("card-conteudo"));
+    } else {
+      console.log("nao rodou");
+    }
   </script>
 </body>
 
