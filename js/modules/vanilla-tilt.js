@@ -1,3 +1,14 @@
+export default function initVanillaTilt() {
+  if (window.innerWidth >= 960) {
+    VanillaTilt.init(document.querySelectorAll('.card'), {
+      max: 25,
+      speed: 400,
+      glare: true,
+      'max-glare': 1,
+    });
+  }
+}
+
 if (window.innerWidth >= 960) {
   var VanillaTilt = (function () {
     'use strict';
