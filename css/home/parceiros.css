@@ -1,0 +1,40 @@
+.bg-parceiros {
+  background-image: url(../../img/redes.svg);
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+.parceiros {
+  padding: 120px 20px 120px 20px;
+}
+
+.parceiros h2 {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.lista-parceiros {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 500px) {
+  .parceiros {
+    padding: 40px 20px 40px 20px;
+  }
+
+  .parceiros h2 {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .lista-parceiros {
+    gap: 40px;
+  }
+
+  .lista-parceiros img {
+    width: 120px;
+  }
+}
