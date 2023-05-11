@@ -10,6 +10,10 @@
   margin-top: 10px;
 }
 
+.info-contato {
+  padding-right: 10px;
+}
+
 .lista-endereco::after,
 .lista-contato::after {
   content: '';
@@ -104,5 +108,9 @@
 
   .lista-redes {
     justify-content: space-around;
+  }
+
+  .info-contato {
+    padding-right: 0px;
   }
 }
