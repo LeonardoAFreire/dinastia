@@ -70,6 +70,10 @@
   margin-top: 40px;
 }
 
+.chamada-beneficios .btn {
+  place-self: center;
+}
+
 @media (max-width: 960px) {
   .beneficios {
     padding: 40px 20px 40px 20px;
