@@ -7,7 +7,17 @@
 }
 
 .info-contato li + li {
-  margin-top: 5px;
+  margin-top: 10px;
+}
+
+.lista-endereco::after,
+.lista-contato::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-top: 12px;
+  background: #243b55;
 }
 
 .lista-endereco {
@@ -59,6 +69,13 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.lista-redes {
+  display: flex;
+  margin-top: 20px;
+  gap: 32px;
+  align-items: center;
+}
+
 .mapa-contato {
   height: 100%;
 }
@@ -83,5 +100,9 @@
 
     width: 100%;
     height: 250px;
+  }
+
+  .lista-redes {
+    justify-content: space-around;
   }
 }
