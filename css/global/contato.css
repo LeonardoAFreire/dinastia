@@ -1,0 +1,87 @@
+.bg-contato {
+  background: linear-gradient(64deg, #d5ac61, #fcda9b, #ffeac4);
+}
+
+.contato {
+  padding: 120px 20px 120px 20px;
+}
+
+.info-contato li + li {
+  margin-top: 5px;
+}
+
+.lista-endereco {
+  margin-top: 20px;
+}
+
+.lista-contato {
+  margin-top: 20px;
+}
+
+.lista-contato li a {
+  transition: 0.3s;
+  margin-left: 4px;
+}
+
+.lista-contato li a:hover {
+  font-weight: bold;
+}
+
+.whats,
+.email,
+.telefone {
+  display: flex;
+  align-items: center;
+}
+
+.whats::before,
+.telefone::before,
+.email::before {
+  content: '';
+  background-image: url('../../img/whatsapp-icon.svg');
+  background-repeat: no-repeat;
+  display: block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.email::before {
+  background-image: url('../../img/email.svg');
+}
+
+.telefone::before {
+  background-image: url('../../img/telefone.svg');
+}
+
+.contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.mapa-contato {
+  height: 100%;
+}
+
+.bg-footer {
+  background: linear-gradient(64deg, #d5ac61, #fcda9b, #ffeac4);
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 960px) {
+  .contato {
+    padding: 40px 20px 0 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .mapa-contato {
+    margin-top: 20px;
+
+    width: 100%;
+    height: 250px;
+  }
+}

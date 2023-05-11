@@ -1,6 +1,7 @@
 /* Global */
 @import './global/globa.css';
 @import './global/header.css';
+@import './global/contato.css';
 
 /* Utility */
 @import './utility/cores.css';
