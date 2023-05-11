@@ -4,7 +4,7 @@
   background-repeat: repeat;
 }
 .parceiros {
-  padding: 120px 20px 120px 20px;
+  padding: 0 20px 60px 20px;
 }
 
 .parceiros h2 {
@@ -22,7 +22,7 @@
 
 @media (max-width: 960px) {
   .parceiros {
-    padding: 40px 20px 40px 20px;
+    padding: 0px 20px 40px 20px;
   }
 }
 
