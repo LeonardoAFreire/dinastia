@@ -40,6 +40,10 @@ th {
 }
 
 @media (max-width: 960px) {
+  .politica h1 {
+    margin-bottom: 20px;
+  }
+
   .container-tabela {
     overflow-x: scroll;
   }
