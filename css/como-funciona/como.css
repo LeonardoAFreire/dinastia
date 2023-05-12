@@ -1,0 +1,27 @@
+.como-funciona {
+  padding: 60px 20px 60px 20px;
+}
+
+.como-funciona h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.como-funciona p + p {
+  margin-top: 15px;
+}
+
+.como-funciona p {
+  max-width: 75ch;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  .como-funciona {
+    padding: 40px 20px 40px 20px;
+  }
+
+  .como-funciona p {
+    margin: 0;
+  }
+}

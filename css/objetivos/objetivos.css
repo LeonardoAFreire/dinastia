@@ -1,0 +1,57 @@
+.objetivos {
+  padding: 60px 20px 60px 20px;
+}
+
+.objetivos h1 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.lista-objetivos li {
+  background: linear-gradient(to right, #d5ac61, #fcda9b, #ffeac4);
+  border-radius: 4px;
+  color: var(--cor-1);
+  text-align: center;
+  padding: 8px;
+}
+
+.lista-objetivos li + li {
+  margin-top: 10px;
+}
+
+.lista-objetivos li:last-child {
+  margin-bottom: 40px;
+}
+
+.objetivos {
+  display: grid;
+}
+
+.objetivos p {
+  max-width: 75ch;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.objetivos .btn {
+  margin-top: 40px;
+  place-self: center;
+}
+
+@media (max-width: 960px) {
+  .objetivos h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .lista-objetivos li:last-child {
+    margin-bottom: 20px;
+  }
+
+  .objetivos {
+    padding: 40px 20px 40px 20px;
+  }
+  .objetivos .btn {
+    margin-top: 30px;
+  }
+}

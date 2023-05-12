@@ -1,5 +1,6 @@
 .bg-contato {
-  background: linear-gradient(64deg, #d5ac61, #fcda9b, #ffeac4);
+  background: url(../../img/redes.svg);
+  background-attachment: fixed;
 }
 
 .contato {
@@ -85,7 +86,7 @@
 }
 
 .bg-footer {
-  background: linear-gradient(64deg, #d5ac61, #fcda9b, #ffeac4);
+  background: linear-gradient(to right, #d5ac61, #fcda9b, #ffeac4);
 }
 
 .footer {
@@ -112,5 +113,11 @@
 
   .info-contato {
     padding-right: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .bg-contato {
+    background-attachment: initial;
   }
 }

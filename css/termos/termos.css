@@ -1,0 +1,68 @@
+.termos {
+  padding: 60px 20px 60px 20px;
+}
+
+.termos h1 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.termos h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+ol {
+  margin-top: 20px;
+}
+
+.termos h3 {
+  margin-top: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.termos p + p {
+  margin-top: 10px;
+}
+
+.termos p {
+  max-width: 75ch;
+  margin: 0 auto;
+}
+
+.termos li {
+  max-width: 75ch;
+  margin: 0 auto;
+}
+
+.termos li + li {
+  margin-top: 10px;
+}
+.lista-a {
+  list-style: lower-alpha;
+}
+
+.lista-dot {
+  list-style: disc;
+}
+
+@media (max-width: 960px) {
+  .termos {
+    padding: 40px 20px 40px 20px;
+  }
+
+  .termos h1 {
+    margin-bottom: 20px;
+  }
+
+  .termos p {
+    max-width: initial;
+    margin: 0;
+  }
+
+  .termos li {
+    max-width: initial;
+    margin: 0;
+  }
+}

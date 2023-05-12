@@ -13,3 +13,9 @@
 @import './home/apresentacao.css';
 @import './home/beneficios.css';
 @import './home/parceiros.css';
+
+/* Páginas extras */
+@import './como-funciona/como.css';
+@import './objetivos/objetivos.css';
+@import './termos/termos.css';
+@import './politica/politica.css';
