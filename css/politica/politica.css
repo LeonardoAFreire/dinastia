@@ -1,5 +1,5 @@
 .politica {
-  padding: 60px 20px 60px 20px;
+  padding: 60px 20px 60px 30px;
 }
 
 .politica h1 {
@@ -34,5 +34,9 @@ th {
 @media (max-width: 960px) {
   .container-tabela {
     overflow-x: scroll;
+  }
+
+  .politica {
+    padding: 40px 20px 40px 30px;
   }
 }
