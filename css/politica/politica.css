@@ -1,0 +1,38 @@
+.politica {
+  padding: 60px 20px 60px 20px;
+}
+
+.politica h1 {
+  margin-bottom: 20px;
+}
+
+.politica p {
+  max-width: 75ch;
+}
+
+.container-lista-politica h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.container-lista-politica h3 {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container-lista-politica p {
+  margin-top: 20px;
+}
+
+th {
+  padding: 0.5rem;
+}
+
+@media (max-width: 960px) {
+  .container-tabela {
+    overflow-x: scroll;
+  }
+}

@@ -23,8 +23,12 @@ ul,
 p,
 blockquote,
 dd,
-ol {
+ol,
+table,
+th,
+tr {
   margin: 0px;
+  padding: 0;
 }
 
 ul {
