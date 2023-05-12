@@ -1,6 +1,7 @@
 .bg-contato {
-  background: url(../../img/redes.svg);
-  background-attachment: fixed;
+  /* background: url(../../img/redes.svg);
+  background-attachment: fixed; */
+  background: linear-gradient(to right, #d5ac61, #fcda9b, #ffeac4);
 }
 
 .contato {
