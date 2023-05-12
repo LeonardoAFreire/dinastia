@@ -1,13 +1,21 @@
 .politica {
   padding: 60px 20px 60px 30px;
+  margin: 0 auto;
 }
 
 .politica h1 {
-  margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.container-lista-politica li {
+  margin: 0 auto;
+  max-width: 75ch;
 }
 
 .politica p {
   max-width: 75ch;
+  margin: 0 auto;
 }
 
 .container-lista-politica h2 {
