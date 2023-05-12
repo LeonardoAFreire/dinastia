@@ -36,6 +36,17 @@ th {
     overflow-x: scroll;
   }
 
+  .container-tabela::-webkit-scrollbar {
+    height: 10px;
+    width: 20px;
+  }
+  .container-tabela::-webkit-scrollbar-track {
+    background: var(--cor-0);
+  }
+  .container-tabela::-webkit-scrollbar-thumb {
+    background: var(--cor-p1);
+  }
+
   .politica {
     padding: 40px 20px 40px 30px;
   }
