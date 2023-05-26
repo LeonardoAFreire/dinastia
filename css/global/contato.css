@@ -40,7 +40,7 @@
 }
 
 .lista-contato li a:hover {
-  font-weight: bold;
+  text-decoration: underline;
 }
 
 .whats,
