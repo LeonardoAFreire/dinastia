@@ -3,6 +3,8 @@
   --cor-1: #243b55;
   --cor-2: #f8f9fa;
   --cor-p1: #d5ac61;
+  --cor-gradient-p1: linear-gradient(to right, #d5ac61, #fcda9b, #ffeac4);
+  --cor-gradient-p2: linear-gradient(to left, #d5ac61, #fcda9b, #ffeac4);
 }
 
 .cor-0 {

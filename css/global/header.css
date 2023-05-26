@@ -56,14 +56,14 @@
 .nav .btn-escritorio {
   color: var(--cor-0);
   font-weight: bold;
-  background: var(--cor-1);
+  background: var(--cor-gradient-p1);
+  color: var(--cor-1);
   padding: 12px 24px;
   border-radius: 4px;
-  transition: 0.3s;
 }
 
 .nav .btn-escritorio:hover {
-  background: #0f1724;
+  background: var(--cor-gradient-p2);
 }
 
 #btn-mobile {
