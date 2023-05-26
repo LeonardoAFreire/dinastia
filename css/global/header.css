@@ -83,9 +83,19 @@
     flex-direction: column;
     position: absolute;
     width: 100%;
-    top: 77px;
+    top: 98px;
     left: 0px;
-    background: linear-gradient(to right, #d5ac61, #fcda9b, #ffeac4);
+    background: #141e30; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #243b55,
+      #141e30
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #243b55,
+      #141e30
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 0px;
     z-index: 1000;
     transition: 0.5s;
@@ -95,14 +105,14 @@
   }
 
   #nav.active #menu {
-    height: calc(100vh - 77px);
+    height: calc(100vh - 99px);
     visibility: visible;
     overflow-y: auto;
   }
 
   #menu a {
     padding: 1rem 1rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
   #btn-mobile {
     display: flex;
@@ -115,7 +125,7 @@
 
   #hamburger {
     display: block;
-    border-top: 2px solid var(--cor-1);
+    border-top: 2px solid var(--cor-0);
     width: 30px;
   }
 
@@ -124,7 +134,7 @@
     content: '';
     width: 30px;
     height: 2px;
-    background: var(--cor-1);
+    background: var(--cor-0);
     display: block;
     margin-top: 8px;
     transition: 0.3s;
