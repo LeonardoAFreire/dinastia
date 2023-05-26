@@ -1,11 +1,19 @@
 .bg-header {
-  background: linear-gradient(to right, #d5ac61, #fcda9b, #ffeac4);
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .logo {
-  font-size: 4rem;
-  color: var(--cor-1);
-  font-family: 'Lato';
+  width: 200px;
 }
 
 .header {
@@ -26,6 +34,7 @@
   text-transform: uppercase;
   letter-spacing: 0.1px;
   padding: 8px 12px;
+  color: var(--cor-0);
   font-weight: bold;
   display: block;
 }
@@ -36,7 +45,7 @@
   display: block;
   width: 0%;
   height: 2px;
-  background: var(--cor-1);
+  background: var(--cor-0);
   transition: 0.3s;
 }
 
@@ -54,7 +63,7 @@
 }
 
 .nav .btn-escritorio:hover {
-  background: #261763;
+  background: #0f1724;
 }
 
 #btn-mobile {
@@ -132,10 +141,6 @@
   #nav.active #hamburger::after {
     transform: rotate(-135deg);
     top: -10px;
-  }
-
-  .logo {
-    font-size: 2rem;
   }
 
   .nav .btn-escritorio {
