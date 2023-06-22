@@ -26,13 +26,19 @@
   background: var(--cor-1);
 }
 
-.lista-parceiros {
+.swiper-wrapper {
   display: flex;
   align-items: center;
+  padding-bottom: 40px;
+}
+
+.swiper-wrapper {
+  transition-timing-function: linear;
+}
+
+.swiper-slide {
+  display: flex;
   justify-content: center;
-  gap: 60px;
-  padding: 20px;
-  flex-wrap: wrap;
 }
 
 @media (max-width: 960px) {

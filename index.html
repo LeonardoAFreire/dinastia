@@ -8,12 +8,15 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
   <link rel="stylesheet" href="./css/style.css">
   <title>Dinastia Soluções Financeiras</title>
 </head>
 
 <body>
+
   <header class="bg-header">
     <div class="container header">
       <a href="./index.html">
@@ -65,6 +68,7 @@
 
     </div>
   </main>
+
   <section class="bg-apresentacao">
     <div class="container apresentacao">
       <div class="conteudo-apresentacao">
@@ -102,31 +106,40 @@
     </div>
   </section>
 
-
   <section class="bg-parceiros">
     <div class="parceiros container">
       <h2 class="font-1-xl cor-1">Empresas Parceiras</h2>
-      <ul class="lista-parceiros">
-        <li>
-          <img src="./img/nipomed.png" alt="Nipomed empresa parceira da Dinastia" height="auto" width="200px">
-        </li>
-        <li>
-          <img src="./img/tokiomarine.svg" alt="Tokio Marine empresa parceira da Dinastia" height="auto" width="200px">
-        </li>
-        <li>
-          <img src="./img/sulamerica.svg"
-            alt="Sul America Saude empresa parceira da Dinastia, com seguro acidentes e seguro funeral" height="auto"
-            width="200px">
-        </li>
-        <li>
-          <img src="./img/myseg.png" alt="MySeg empresa parceira da Dinastia" height="auto" width="200px">
-        </li>
-        <li>
-          <img src="./img/fcUni.png" alt="FcUni empresa parceira da Dinastia com cursos" height="auto" width="200px">
-        </li>
-      </ul>
+
+      <div class="swiper swiperParceiros">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide-parceiros">
+            <img src="./img/nipomed.svg" alt="Nipomed empresa parceira da Dinastia" height="auto" width="250px">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/tokiomarine.svg" alt="Tokio Marine empresa parceira da Dinastia" height="auto"
+              width="200px">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/sulamerica.svg"
+              alt="Sul America Saude empresa parceira da Dinastia, com seguro acidentes e seguro funeral" height="auto"
+              width="250px">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/myseg.png" alt="MySeg empresa parceira da Dinastia" height="auto" width="250px">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/fcUni.png" alt="FcUni empresa parceira da Dinastia com cursos" height="auto" width="250px">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/dinastiaSwiper.svg" alt="Dinastia Soluções Financeiras" height="auto" width="250px">
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
     </div>
   </section>
+
   <section class="bg-beneficios">
     <div class="beneficios container">
       <h2 class="font-1-xl cor-0">
@@ -136,7 +149,6 @@
         A Dinastia oferece diversos planos com serviços e benefícios nas áreas da saúde, segurança financeira e
         capacitação profissional.
       </p>
-
       <div class="beneficios-cards">
         <ul class="cards">
           <li class="card">
@@ -242,14 +254,14 @@
             </li>
           </ul>
           <ul class="lista-contato font-1-m cor-1">
-            <li class="telefone">
-              <a href="tel:+554132237822">(41) 3223-7822</a>
+            <li>
+              <a class="telefone" href="tel:+554132237822">(41) 3223-7822</a>
             </li>
-            <li class="email">
-              <a href="mailto:dinastia@dinastiarede.com.br">dinastia@dinastiarede.com.br</a>
+            <li>
+              <a class="email" href="mailto:dinastia@dinastiarede.com.br">dinastia@dinastiarede.com.br</a>
             </li>
-            <li class="whats">
-              <a href="https://api.whatsapp.com/send/?phone=554132237822">Clique aqui e fale conosco pelo
+            <li>
+              <a class="whats" href="https://api.whatsapp.com/send/?phone=554132237822">Clique aqui e fale conosco pelo
                 WhatsApp!</a>
             </li>
 
@@ -282,8 +294,16 @@
     </div>
   </footer>
 
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+  <!-- Módulos JS -->
   <script type="module" src="./js/script.js"></script>
 </body>
+
+
+
 
 </html>
 
