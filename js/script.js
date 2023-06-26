@@ -4,6 +4,7 @@ import initScrollSuave from './modules/scroll-suave.js';
 import initFuncionamento from './modules/funcionamento.js';
 import initVanillaTilt from './modules/vanilla-tilt.js';
 import initSwiper from './modules/swiper.js';
+import initFormulario from './modules/formulario.js';
 
 initBtnMobile();
 initAnimaScroll();
@@ -11,3 +12,4 @@ initScrollSuave();
 initFuncionamento();
 initVanillaTilt();
 initSwiper();
+initFormulario();

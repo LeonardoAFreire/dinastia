@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon">
+
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Como Funciona</title>
+</head>
+
+<body>
+  <header class="bg-header">
+    <div class="container header">
+      <a href="./index.html">
+        <img src="./img/logoDinastia.svg" alt="logo dinastia" class="logo">
+      </a>
+
+
+      <nav class="nav cor-1 font-1-s navegacao" id="nav" data-menu="suave">
+        <button id="btn-mobile" aria-controls="menu" aria-expanded="false" aria-haspopup="true" aria-label="Abrir Menu">
+          <span id="hamburger"></span>
+        </button>
+        <ul class="links-menu" id="menu">
+          <li>
+            <a href="./como-funciona.html" class="link-interno">Como Funciona</a>
+          </li>
+          <li>
+            <a href="./objetivos.html" class="link-interno">Objetivos</a>
+          </li>
+          <li>
+            <a href="./termos.html" class="link-interno">Termos de Uso</a>
+          </li>
+          <li>
+            <a href="./politica.html" class="link-interno">Política de Privacidade</a>
+          </li>
+          <li>
+            <a href="https://escritoriovirtual.dinastiarede.com.br/login/" class="btn-escritorio">Escritório Virtual</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="bg-paginas-internas">
+    <div class="container formulario">
+
+      <form name="contato" id="contato" class="form font-1-l cor-0">
+        <label for="nome">Infome seu nome completo</label>
+        <input type="text" name="nome" id="nome" required>
+        <span class="erro"></span>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+        <span class="erro"></span>
+        <label for="telefone">Telefone para contato</label>
+        <input type="text" name="telefone" id="telefone" required>
+        <span class="erro"></span>
+        <label for="meio_chegada">Como você conheceu a Dinastia?</label>
+        <select name="meio_chegada" id="meio_chegada">
+          <option value="" disabled selected>Selecione uma opção</option>
+          <option value="indicado">Por um associado</option>
+          <option value="internet">Pela Internet</option>
+        </select>
+        <span class="erro"></span>
+        <label for="codigo">Coloque o código do Associado que te indicou</label>
+        <input type="text" name="codigo" id="codigo">
+        <button type="submit" class="font-1-m">Enviar Informações</button>
+      </form>
+
+
+    </div>
+  </main>
+
+
+
+  <section class="bg-contato">
+    <div class="container contato">
+      <div class="info-contato">
+        <h2 class="font-1-xl cor-1">Dinastia</h2>
+
+        <address>
+          <ul class="lista-endereco font-1-m cor-1">
+            <li>
+              Delta Red Marketing Associação Interativa e Treinamento Ltda.
+            </li>
+            <li>
+              Rua Tibagi, 576 12º Andar, Centro - Curitiba, PR.
+            </li>
+            <li>
+              CEP: 80060-110
+            </li>
+            <li>
+              CNPJ: 02.700.642/0001-29
+            </li>
+          </ul>
+          <ul class="lista-contato font-1-m cor-1">
+            <li>
+              <a class="telefone" href="tel:+554132237822">(41) 3223-7822</a>
+            </li>
+            <li>
+              <a class="email" href="mailto:dinastia@dinastiarede.com.br">dinastia@dinastiarede.com.br</a>
+            </li>
+            <li>
+              <a class="whats" href="https://api.whatsapp.com/send/?phone=554132237822">Clique aqui e fale conosco pelo
+                WhatsApp!</a>
+            </li>
+
+          </ul>
+
+          <ul class="lista-redes">
+            <li><a href="https://www.instagram.com/dinastiasolucoesfinanceiras/" class="instagram"><img
+                  src="./img/instagram-p.svg" alt="Clique aqui e acesse nosso Instagram"></a>
+            </li>
+            <li><a href="https://www.facebook.com/dinastiaoficial" class="facebook"><img src="./img/facebook-p.svg"
+                  alt="Clique aqui e acesse nosso Facebook"></a>
+            </li>
+
+          </ul>
+        </address>
+      </div>
+
+      <iframe class="mapa-contato"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.1893013515255!2d-49.2630743!3d-25.431934000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce441e8d63a8b%3A0xe3f5af4e80044756!2sR.%20Tibagi%2C%20576%20-%2012%C2%BA%20Andar%20-%20Centro%2C%20Curitiba%20-%20PR%2C%2080060-110!5e0!3m2!1spt-BR!2sbr!4v1683838498641!5m2!1spt-BR!2sbr"
+        width="600" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <footer class="bg-footer">
+    <div class="footer">
+      <p class="font-1-s cor-1">
+        Copyright ©2022 Delta Red Marketing Assoc. Int e Trein. Ltda.
+      </p>
+    </div>
+  </footer>
+
+  <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+<!-- Image by <a href="https://www.freepik.com/free-vector/background-realistic-abstract-technology-particle_6938839.htm#query=digital%20marketing%20background&position=17&from_view=keyword&track=ais">Freepik</a> -->

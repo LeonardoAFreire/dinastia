@@ -1,0 +1,46 @@
+.formulario {
+  padding: 40px 20px;
+}
+
+.form label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid var(--cor-1);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+}
+
+.form input,
+.form textarea,
+.form select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  border: 2px solid #fff;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.form button {
+  display: block;
+  padding: 0.5rem;
+  margin-top: 20px;
+}
+
+.invalido {
+  border-color: red !important;
+}
+
+.erro {
+  padding: 0.5rem 0;
+}
+
+/* .form textarea {
+  height: 150px;
+} */
