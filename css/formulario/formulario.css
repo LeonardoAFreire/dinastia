@@ -40,6 +40,12 @@
 .erro {
   padding: 0.5rem 0;
 }
+.text-contato {
+  max-width: 75ch;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
 
 /* .form textarea {
   height: 150px;
