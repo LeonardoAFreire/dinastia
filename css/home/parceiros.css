@@ -9,6 +9,7 @@
 .parceiros {
   padding: 60px 20px 60px 20px;
   text-align: center;
+  pointer-events: none;
 }
 
 .parceiros h2 {
