@@ -7,6 +7,10 @@
   text-align: center;
 }
 
+.como-funciona p {
+  text-align: justify;
+}
+
 .como-funciona p + p {
   margin-top: 15px;
 }
