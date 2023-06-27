@@ -29,7 +29,7 @@ ol {
 .termos p {
   max-width: 75ch;
   margin: 0 auto;
-  text-align: justify;
+  text-align: left;
 }
 
 .termos li {
