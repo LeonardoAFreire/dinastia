@@ -16,7 +16,7 @@
 .politica p {
   max-width: 75ch;
   margin: 0 auto;
-  text-align: left;
+  text-align: justify;
 }
 
 .container-lista-politica h2 {
