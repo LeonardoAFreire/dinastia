@@ -28,16 +28,19 @@
   transition-timing-function: linear;
 }
 
+#beneficios h2 {
+  text-align: center;
+}
+
 .texto-beneficios span {
   color: var(--cor-3);
 }
 
-.texto-beneficios h2 {
+.texto-beneficios {
   text-align: center;
   max-width: 75ch;
   margin: 0 auto;
   margin-top: 8px;
-  color: var(--cor-3);
 }
 
 .container-box {
